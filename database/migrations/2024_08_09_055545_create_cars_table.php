@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('car_model',255);
             $table->string('manufacturer',255);
             $table->decimal('price',10,2);
-            $table->integer('years');
+            $table->integer('year');
             $table->softDeletes();
             $table->timestamps();
         });
